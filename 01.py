@@ -1,8 +1,13 @@
-import os
+import math
+from unittest import result
 
-caminho = os.path.join('Desktop', 'Curso', 'Hello')
-
-arquivo, diretorio = os.path.split(caminho)
-
-print(f'Diretorio:{arquivo}')
-print(f'Arquivo: {diretorio}')
+while True:
+    numb_02 = input('Digite seu multiplicador: ')
+    numb_03 = input('Até onde vai a tabuada: ')
+    
+    for c in range(int(numb_03)):
+        print(f'{c} x {numb_02} = ')
+    
+    resu = int(c) * int(numb_02)
+    
+    
